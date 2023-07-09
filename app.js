@@ -24,14 +24,14 @@ newGrid.addEventListener("click", () => {
   let chooseCols = prompt("How much columns do you want to create?");
   if (chooseRows >= 100 || chooseCols >= 100 || chooseRows < 1 || chooseCols < 1) {
     alert(
-      "Please write numbers below 100."
+      "Please write numbers inside 0-100."
     );
   } else {
-    makeRows(chooseRows, chooseCols);
     let grid1 = document.querySelectorAll(".grid-item");
     grid1.forEach((item) => {
       item.remove();
     });
+    makeRows(chooseRows, chooseCols);
   }
 });
 
