@@ -1,3 +1,5 @@
 # etch-a-sketch
 
-## _[View the site](https://guneyuzel.github.io/etch-a-sketch/)_
+Sketch board app created with HTML, CSS, and JS.
+
+[Live Demo](https://guneyuzel.github.io/etch-a-sketch/) :point_left:
