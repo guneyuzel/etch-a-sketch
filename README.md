@@ -1,4 +1,4 @@
-# etch-a-sketch
+# Etch-a-Sketch
 
 Sketch board app created with HTML, CSS, and JS.
 
